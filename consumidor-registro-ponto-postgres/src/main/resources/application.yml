@@ -1,0 +1,14 @@
+server:
+  port: 8100
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clocking
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update

@@ -1,0 +1,13 @@
+package net.matiello.geradorregistroponto;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GeradorRegistroPontoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GeradorRegistroPontoApplication.class, args);
+	}
+
+}

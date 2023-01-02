@@ -1,4 +1,4 @@
-1) iniciar o kafka
+## 1) iniciar o kafka
 
 Iniciar 
 
@@ -11,13 +11,13 @@ Parar
 docker-compose down
 ```
 
-2) kafdrop - interface visual
+## 2) kafdrop - interface visual
 
 ```
 http://localhost:19000
 ```
 
-3) Enviar uma mensagem
+## 3) Enviar uma mensagem
 
 ```
 post http://localhost:8080/producer
