@@ -17,7 +17,7 @@ public class PostgresClockingEventListner {
 
 	final ClockingEventService service;
 
-	@KafkaListener(topics = "clocking-topic", groupId = "postgress-group", containerFactory = "jsonContainerFactory", autoStartup = "true")
+	@KafkaListener(topics = "clocking-topic", groupId = "postgres-group", containerFactory = "jsonContainerFactory", autoStartup = "true")
 	public void consumer(@Payload ClockingEvent payload) {
 		log.info("Consumindo clocking {}", payload.toString());
 

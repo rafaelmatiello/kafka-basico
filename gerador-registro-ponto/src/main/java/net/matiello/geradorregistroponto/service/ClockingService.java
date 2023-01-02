@@ -28,7 +28,7 @@ public class ClockingService {
 		UUID employeeId = UUID.randomUUID();
 		String employeeCpf = CpfUtils.random();
 		ThreadLocalRandom threadLocalRandom = ThreadLocalRandom.current();
-		for (int i = 0; i < 5 * ITENS_BY_EMPLOYEE; i++) {
+		for (int i = 0; i < 1000 * ITENS_BY_EMPLOYEE; i++) {
 
 			if (i % 4 == 0) {
 				employeeId = UUID.randomUUID();

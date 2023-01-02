@@ -1,0 +1,12 @@
+server:
+  port: 8200
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+  data:
+    mongodb: 
+      host: localhost
+      port: 27017
+      database: clockingList
+  
